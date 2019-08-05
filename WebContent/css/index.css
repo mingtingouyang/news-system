@@ -1,0 +1,149 @@
+.mui-icon.mui-icon-news{
+	background-image: url(../img/news.png);
+	background-size: 24px 24px;
+	
+}
+.mui-icon.mui-icon-friend{
+	background-image: url(../img/friend.png);
+	background-size: 24px 24px;
+}
+.mui-icon.mui-icon-moment{
+	background-image: url(../img/moment.png);
+	background-size: 24px 24px;
+}
+.mui-icon.mui-icon-userinfo{
+	background-image: url(../img/info.png);
+	background-size: 24px 24px;
+}
+.mui-card-header.mui-card-meidia {
+	background-size: 100% auto;
+	background-position: center;
+}
+
+#tabbar-friend .username{
+	width: 260px;
+	margin: 20px 5px;
+	background-color: rgba(0,0,0,0.3);
+	border-radius: 15px;
+}
+#tabbar-friend .username input{
+	width: 230px;
+	margin: 0 15px;
+	background-color: rgba(0,0,0,0);
+	border-color: rgba(0,0,0,0);
+	padding: 0;
+	font-size: 20px;
+	color: white;
+}
+#tabbar-friend .search{
+	width: 40px;
+	height: 40px;
+	margin: 20px 5px;
+	border-radius: 20px;
+	background-image: url(../img/search.png);
+	background-color: #007aff;
+	background-size: 30px 30px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#tabbar-friend .search input{
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	background-color: rgba(0,0,0,0);
+}
+#tabbar-friend form{
+	display: flex;
+	justify-content: center;
+	align-align-items: center;
+}
+
+#tabbar-friend .notification{
+	display: block;
+	margin: 0 auto;
+	height: 36px;
+	width: 200px;
+	border-radius: 10px;
+	background-color: #007AFF;
+	color: white;
+	text-align: center;
+	line-height: 36px;
+	font-size: 20px;
+}
+.friend-list{
+	padding: 0;
+}
+.friend-list li{
+	height: 60px;
+	padding: 0 20px;
+	display: flex;
+	background-color: white;
+	border-bottom: 1px solid #CCCCCC;
+	align-items: center;
+}
+.friend-list li .userimg{
+	display: block;
+	height: 50px;
+	width: 50px;
+	margin: 5px;
+	background-size: 50px 50px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.friend-list li .user{
+	flex: 1;
+	height: 50px;
+	width: 170px;
+	line-height: 50px;
+	font-size: 30px;
+	padding-left: 10px;
+	margin: 0 !important;
+}
+.friend-list li .delete{
+	display: block;
+	height: 50px;
+	width: 50px;
+	margin: 5px;
+	background-image: url(../img/delete.png);
+	background-size: 30px 30px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#tabbar-info img{
+	width: 150px;
+	height: 150px;
+}
+#tabbar-info .userimg{
+	width: 150px;
+	height: 150px;
+	margin: 10px auto;
+}
+
+#tabbar-moment #send{
+	margin-left: calc(100% - 70px);
+	margin-bottom: 20px;
+}
+#tabbar-moment .moment-item{
+	background-color: white;
+	border-bottom: 1px solid #CCCCCC;
+}
+#tabbar-moment .moment-item .head{
+	display: flex;
+	width: 100%;
+	height:55px
+}
+#tabbar-moment .moment-item .head .userimg{
+	width: 50px;
+	height: 50px;
+	margin: 5px 10px 0 10px;
+	background-size:50px auto;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#tabbar-moment .moment-item .content{
+	width: calc(100% - 30px);
+	margin: 0 auto;
+	font-size: 14px;
+	padding: 10px 0;
+}

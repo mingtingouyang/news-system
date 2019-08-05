@@ -1,0 +1,39 @@
+.friend-list{
+	padding: 0;
+}
+.friend-list li{
+	height: 60px;
+	padding: 0 20px;
+	display: flex;
+	background-color: white;
+	border-bottom: 1px solid #CCCCCC;
+	align-items: center;
+}
+.friend-list li .userimg{
+	display: block;
+	height: 50px;
+	width: 50px;
+	margin: 5px;
+	background-size: 50px 50px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.friend-list li .user{
+	flex: 1;
+	height: 50px;
+	width: 170px;
+	line-height: 50px;
+	font-size: 30px;
+	padding-left: 10px;
+	margin: 0 !important;
+}
+.friend-list li .delete{
+	display: block;
+	height: 50px;
+	width: 50px;
+	margin: 5px;
+	background-image: url(../img/confirm.png);
+	background-size: 30px 30px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
