@@ -1,4 +1,9 @@
 # news-system
+[![GitHub issues](https://img.shields.io/github/issues/mingtingouyang/news-system)](https://github.com/mingtingouyang/news-system/issues)
+[![GitHub forks](https://img.shields.io/github/forks/mingtingouyang/news-system)](https://github.com/mingtingouyang/news-system/network)
+[![GitHub license](https://img.shields.io/github/license/mingtingouyang/news-system)](https://github.com/mingtingouyang/news-system/blob/master/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/mingtingouyang/news-system)](https://github.com/mingtingouyang/news-system/stargazers)
+
 - [介绍](#介绍)
   - [后台管理](#后台管理)
   - [PC 端](#PC端)
